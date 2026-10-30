@@ -1,9 +1,9 @@
 # Khushi Forever ♡
 
-Full frontend: https://khushiamaan.github.io/khushiamaan/
+Full private app at https://khushiamaan.github.io/khushiamaan/ backed by separate Supabase Auth, Postgres, private Storage and Edge API. Invited accounts only. Owner activation is complete and its temporary bridge is disabled.
 
-The app uses Supabase Auth, an invite allowlist, private storage and the khushi-api Edge Function. No server secrets or private photographs are stored in this repository. Existing Owner can activate the new login through the original working app, then choose a password. Invitation links are one-time and must be shared privately by the Owner/Co-admin; no invitation email is automatically sent.
+Android1.6 (versionCode7) uses the new website/backend. Sign in, open app settings and use the APK download button; the release is private. Signature is unchanged from1.5. No private photos, APK icons, signing keys or admin credentials are stored in this public repository.
 
-Corresponding source: [source-code.zip](source-code.zip). AGPL-3.0 and third-party licences apply.
+All six connection features are implemented. Web regression checks, four native heartbeat unit tests and seven live release/download checks passed. Actual phone calls, incoming notifications and media export still require phone verification. STUN-only calls may need TURN on restrictive networks.
 
-27 live backend permission/invitation/call/data checks passed. Fourteen media files were copied and verified with SHA-256. Actual-phone media export/playback is still unverified. APK 1.5 opens the original host; Android migration is still pending.
+Source is available in source-code.zip under AGPL-3.0.
