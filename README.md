@@ -1,9 +1,7 @@
 # Khushi Forever ♡
 
-Full private app at https://khushiamaan.github.io/khushiamaan/ backed by separate Supabase Auth, Postgres, private Storage and Edge API. Invited accounts only. Owner activation is complete and its temporary bridge is disabled.
+Private invited-account app at https://khushiamaan.github.io/khushiamaan/. Backend uses separate Supabase project. Android1.7 fixes call routing for wired/USB/Bluetooth with optional Nearby devices permission and an output picker. Install the signed APK from the in-app settings download button.
 
-Android1.6 (versionCode7) uses the new website/backend. Sign in, open app settings and use the APK download button; the release is private. Signature is unchanged from1.5. No private photos, APK icons, signing keys or admin credentials are stored in this public repository.
+Video calls add optional outgoing Soft/Warm/Cool/Rosy/B&W effects and a self-preview Natural/Mirror toggle. No face tracking, face reshaping, recording or external frame processing. Natural is default. Effects require supported WebView/canvas capture. Physical accessory and video-effect verification remains pending.
 
-All six connection features are implemented. Web regression checks, four native heartbeat unit tests and seven live release/download checks passed. Actual phone calls, incoming notifications and media export still require phone verification. STUN-only calls may need TURN on restrictive networks.
-
-Source is available in source-code.zip under AGPL-3.0.
+Private photos, APK/icon bytes, signing keys and server credentials are excluded from this public repo. Source ZIP is provided under AGPL-3.0.
